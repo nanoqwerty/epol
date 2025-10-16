@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EPOL | Desarrollo Web</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/estilos.css"> <!-- tu archivo CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <div id="top"></div>
+    
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="img/logo-epol.png" alt="Mi Logo">
+        <!-- Si no querés imagen, podés poner: <h1>Mariano López</h1> -->
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#top">Inicio</a></li>
+          <li><a href="#servicio">Servicios</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- Botón hamburguesa para móvil -->
+      <div class="menu-toggle">
+        &#9776;
+      </div>
+    </div>
+  </header>
+
+
+<!-- Hero -->
+<section class="hero" id="inicio">
+  <div class="hero-container">
+    <div class="hero-text">
+      <h1>Diseño y Desarrollo Web Profesional</h1>
+      <p>Transforma tus ideas en páginas web modernas, rápidas y seguras.</p>
+      <a href="#contacto" class="btn">CONTACTANOS</a>
+    </div>
+    <div class="hero-image">
+      <img src="img/hero-image.png" alt="Desarrollo web">
+    </div>
+  </div>
+</section>
+
+  <!-- Secciones del menu-->
+
+  <section id="servicio" class="seccion">
+   <div class="contenedor">
+    <h2>SERVICIOS</h2>
+    <p>
+      Ofrecemos soluciones web a medida, enfocadas en la calidad, la optimización y la experiencia del usuario. 
+      Cada proyecto es desarrollado con atención al detalle y tecnologías actuales.
+    </p>
+   </div>
+  </section>
+
+
+  <section id="portfolio" class="seccion">
+  <div class="contenedor">
+    <h2>PORTFOLIO</h2>
+    <p>
+      Estamos desarrollando nuevos proyectos que pronto estarán disponibles en esta sección. 
+      Nuestro objetivo es mostrar sitios web modernos, funcionales y adaptados a las necesidades de cada cliente.
+      ¡Próximamente podrás verlos aquí!
+    </p>
+
+    <div class="portfolio-grid">
+      <div class="proyecto">
+        <div class="proyecto-placeholder">Próximamente</div>
+      </div>
+      <div class="proyecto">
+        <div class="proyecto-placeholder">Próximamente</div>
+      </div>
+      <div class="proyecto">
+        <div class="proyecto-placeholder">Próximamente</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--
+
+Más adelante, cuando tengas un proyecto listo, podés reemplazar cada bloque:
+
+<div class="proyecto">
+  <img src="img/mi-proyecto1.png" alt="Proyecto 1">
+</div>
+
+<a href="https://mi-proyecto1.com" target="_blank">Ver proyecto</a>
+
+
+-->
+
+<section id="nosotros" class="seccion">
+   <div class="contenedor">
+    <h2>NOSOTROS</h2>
+    <p>
+      Somos un emprendimiento radicado en Mar del Plata, dedicado al desarrollo de soluciones digitales a medida.
+    </p>
+   </div>
+  </section>
+
+
+<section id="contacto" class="seccion">
+  <div class="contenedor">
+    <h2>CONTACTO</h2>
+    <p>
+      Si querés ponerte en contacto, escribinos por redes sociales o completá el formulario.
+    </p>
+    
+
+    <!-- Redes Sociales arriba -->
+    <div class="redes">
+      <!--<h3>Mis redes</h3>-->
+      <div class="iconos-redes">
+        <a href="https://www.instagram.com/epoldesarrolloweb" target="_blank" class="icono instagram" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/epol.desarrollo.web" target="_blank" class="icono facebook" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://wa.me/542236929040" target="_blank" class="icono whatsapp" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Formulario debajo -->
+    <form class="formulario" action="https://formspree.io/f/xnnglykb" method="POST">
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo" required>
+    <textarea name="mensaje" rows="3" placeholder="Tu mensaje" required></textarea>
+    <button type="submit">Enviar mensaje</button>
+    </form>
+
+  </div>
+</section>
+
+<script src="js/main.js"></script> <!-- para el menú responsive -->
+  
+<footer class="footer">
+  <div class="contenedor-footer">
+    <p>&copy; 2025 epol - Todos los derechos reservados.</p>
+    
+    <!--<a href="#top" class="volver-arriba">Volver arriba</a>
+
+    <div class="footer-redes">
+      <a href="https://www.instagram.com/tuusuario" target="_blank" class="icono-footer instagram" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/tuusuario" target="_blank" class="icono-footer facebook" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://wa.me/541123456789" target="_blank" class="icono-footer whatsapp" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>-->
+  </div>
+</footer>
+
+
+  
+</body>
+</html>
